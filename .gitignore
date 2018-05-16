@@ -1,0 +1,18 @@
+.vscode/
+
+others
+
+*.exe
+
+*.txt
+
+*.out
+
+#ignore test files
+test.cpp
+
+#ignore not accepted files. wrong answer
+*.WA.cpp
+
+#ignore not accepted files. TLE
+*.TLE.cpp

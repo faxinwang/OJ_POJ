@@ -1,6 +1,6 @@
 .vscode/
 
-others
+others/
 
 *.exe
 
@@ -16,3 +16,9 @@ test.cpp
 
 #ignore not accepted files. TLE
 *.TLE.cpp
+
+template.cpp
+
+
+#ignore files and directorys starting with '__'
+__*

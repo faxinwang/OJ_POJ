@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<cstdio>
 using namespace std;
 const int maxn = 1e9;
 typedef long long LL;

@@ -49,6 +49,9 @@ The sums may exceed the range of 32-bit integers.
 5.在push_down()的时候, 是把父结点的add值乘以子结点的区间长度再加到子结点的sum中去, 而不是
   把父结点的add值累加到子结点的add值之后, 再用子结点的add值乘以其区间长度累加到子结点的sum中去, 
   被这个小失误折腾了好长时间, 心疼.
+
+这个题也可以用树状数组做, 而且速度更快, 代码更简洁.
+在POJ上测试, 线段树3500MS, 数状数组1875MS.
 */
 
 #include<iostream>
@@ -67,7 +70,7 @@ struct Node
 
 struct SegTree
 {
-    Node a[maxn<<6];
+    Node a[maxn<<2];
 
     inline void push_up(LL rt){ a[rt].sum = a[rt<<1].sum + a[rt<<1|1].sum; }
 

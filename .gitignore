@@ -1,6 +1,5 @@
 .vscode/
 
-
 *.exe
 
 *.txt
@@ -12,9 +11,11 @@ test.cpp
 
 #ignore not accepted files. wrong answer
 *.WA.cpp
+*.wa.cpp
 
 #ignore not accepted files. TLE
 *.TLE.cpp
+*.tle.cpp
 
 template.cpp
 

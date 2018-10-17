@@ -6,19 +6,28 @@
 
 *.out
 
+*.bak
+
+.classpath
+.project
+
 #ignore test files
 test.cpp
 
 #ignore not accepted files. wrong answer
 *.WA.cpp
-*.wa.cpp
+# *.wa.cpp
+*.WA.java
+# *.wa.java
 
 #ignore not accepted files. TLE
 *.TLE.cpp
 *.tle.cpp
 
-template.cpp
+#template.cpp
+#template.java
 
 
 #ignore files and directorys starting with '__'
 __*
+bin/
